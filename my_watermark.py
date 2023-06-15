@@ -16,7 +16,7 @@ path3 = None
 
 if __name__ == '__main__':
     if '-h' in sys.argv or '--help' in sys.argv or len(sys.argv) < 2:
-        print('用法: python bwm.py <cmd> [arg...] [opts...]')
+        print('用法: python my_watermark.py <cmd> [arg...] [opts...]')
         print('  命令:')
         print('    encode <image> <watermark> <image(encoded)>')
         print('           图像 + 水印 -> 编码后的图像')

@@ -7,7 +7,7 @@
 
 ## （二）参数解释
 ```
-用法：python bwm.py <cmd> [arg...] [opts...]
+用法：python my_watermark.py <cmd> [arg...] [opts...]
   命令：
     encode <image> <watermark> <image(encoded)>
            图像 + 水印 -> 编码后的图像
